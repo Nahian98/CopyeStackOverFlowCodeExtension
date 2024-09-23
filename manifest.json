@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "copy code",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.stackoverflow.com/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ],
+  "content_security_policy": {}
+}
